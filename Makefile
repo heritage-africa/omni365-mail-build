@@ -12,7 +12,7 @@ sign_dir=$(build_dir)/sign
 package_name=$(app_name)
 cert_dir=$(HOME)/.nextcloud/certificates
 
-all: appstore
+all: dev-setup build-production
 
 clean:
 	rm -rf $(build_dir)
@@ -24,7 +24,7 @@ install-composer-deps:
 	composer install --no-dev -o
 
 install-composer-deps-dev:
-	composer install -o
+	composer install -o --ignore-platform-req=ext-intl
 
 install-npm-deps:
 	npm install --production
