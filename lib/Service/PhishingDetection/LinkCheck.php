@@ -86,7 +86,7 @@ class LinkCheck {
 			}
 		}
 		if (count($results) > 0) {
-			return new PhishingDetectionResult(PhishingDetectionResult::LINK_CHECK, true, $this->l10n->t('Some addresses in this message are not matching the link text'), $results);
+			return new PhishingDetectionResult(PhishingDetectionResult::LINK_CHECK, false, $this->l10n->t('Some addresses in this message are not matching the link text'), $results);
 		}
 		return  new PhishingDetectionResult(PhishingDetectionResult::LINK_CHECK, false);
 
