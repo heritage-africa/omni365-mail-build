@@ -8,8 +8,8 @@
       xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
 	<id>mail</id>
 	<name>Mail</name>
-	<summary>💌 A mail app for Nextcloud</summary>
-	<description><![CDATA[**💌 A mail app for Nextcloud**
+	<summary>💌 A mail app for Omni365</summary>
+	<description><![CDATA[**💌 A mail app for Omni365**
 
 - **🚀 Integration with other Nextcloud apps!** Currently Contacts, Calendar & Files – more to come.
 - **📥 Multiple mail accounts!** Personal and company account? No problem, and a nice unified inbox. Connect any IMAP account.
