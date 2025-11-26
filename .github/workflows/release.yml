@@ -34,4 +34,4 @@ jobs:
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release create latest ./build/artifacts/mail.tar.gz
+        run: gh release create "$GITHUB_REF_NAME"  ./build/artifacts/mail.tar.gz
